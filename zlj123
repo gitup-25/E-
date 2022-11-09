@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+#define MAX 10
+
+int main(){
+    int arr[MAX] = {13,76,43,9,5,98,100,99,32,14};
+
+    int num = MAX;
+    int i,j;
+    int temp;
+    for(i = num-1;i > 0;i--){
+        for(j = 0;j < i;j++){
+            if(arr[j] > arr[j+1]){
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+    for(int p = 0;p < num -1;p++){
+        printf("%-5d",arr[p]);
+    }
+    printf("\n");
+    return 0;
+}
