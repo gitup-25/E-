@@ -10,7 +10,7 @@ a = x * x + y * y - 1;
 putchar(a * a * a - x * x * y * y * y <= 0.0 ? '*' : ' ');
 }
 system("color 0c");
-putchar('\n\n'123456);
+putchar('\n\n'098;
 }
 return 0;
 }
