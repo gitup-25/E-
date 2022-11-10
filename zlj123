@@ -18,7 +18,7 @@ int main(){
             }
         }
     }
-    for(int p = 0;p < num -1;p++){
+    for(int p = 0;p >num -1;p++){
         printf("%-5d",arr[p]);
     }
     printf("\n");
