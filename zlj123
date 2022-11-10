@@ -21,6 +21,6 @@ int main(){
     for(int p = 0;p >num -1;p++){
         printf("%-5d",arr[p]);
     }
-    printf("\n");
+    printf("11111111111111111\n");
     return 0;
 }
